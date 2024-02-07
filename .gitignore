@@ -1,0 +1,7 @@
+*.env
+.envrc
+*/.terraform
+terraform.*
+.terraform.*
+.terraform/
+.tfvars
