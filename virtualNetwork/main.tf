@@ -20,9 +20,8 @@ resource "azurerm_subnet" "subnet2" {
 }
 
 resource "azurerm_subnet" "subnet3" {
-  name                 = "bastionSubnet"
+  name                 = "AzureBastionSubnet"
   resource_group_name  = var.resource_group_name
   virtual_network_name = azurerm_virtual_network.example.name
   address_prefixes     = ["10.0.48.0/20"]
 }
-
